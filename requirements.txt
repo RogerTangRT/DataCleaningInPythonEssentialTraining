@@ -1,0 +1,8 @@
+invoke ~= 2.2
+matplotlib ~= 3.10
+pandas ~= 2.3
+pandera ~= 0.26
+pyarrow ~= 21.0
+
+# for VSCode
+jupyter ~= 1.1
