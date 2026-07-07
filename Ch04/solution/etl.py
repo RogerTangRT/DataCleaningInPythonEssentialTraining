@@ -68,4 +68,4 @@ def etl(csv_file, db_file):
             df.to_sql('traffic', conn, if_exists='append', index=False)
 
 if __name__ == '__main__':
-    etl('traffic.csv', 'traffic.db')
+    etl('G:/Meu Drive/Cursos/Python/DataCleaningInPythonEssentialTraining/Ch04/solution/traffic.csv', 'traffic.db')
