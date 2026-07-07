@@ -14,7 +14,7 @@ def validate(df):
     if len(bad_time) > 0:
         raise ValueError(bad_time)
 
-
+# ETL - Extract Transform Load
 @task
 def etl(ctx, csv_file):
     df = load_csv(csv_file)
